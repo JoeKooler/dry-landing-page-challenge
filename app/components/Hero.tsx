@@ -30,7 +30,7 @@ export default function Hero() {
           loop.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-          <button className="inline-flex items-center justify-center rounded-full bg-(--accent) px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-[#0c3f4c]">
+          <button className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-[#0c3f4c]">
             Start a Pilot
           </button>
           <button className="inline-flex items-center justify-center rounded-full border border-black/10 bg-(--surface) px-6 py-3 text-sm font-semibold text-foreground transition hover:-translate-y-0.5 hover:border-black/20">

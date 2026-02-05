@@ -16,7 +16,7 @@ export default function WaitlistSection() {
           placeholder="Work email"
           type="email"
         />
-        <button className="inline-flex items-center justify-center rounded-2xl bg-(--accent) px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:-translate-y-0.5 hover:bg-[#0c3f4c]">
+        <button className="inline-flex items-center justify-center rounded-2xl bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:-translate-y-0.5 hover:bg-[#0c3f4c]">
           Join the waitlist
         </button>
         <p className="text-xs text-muted">
