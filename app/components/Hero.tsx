@@ -1,7 +1,7 @@
-const ritualItems = [
-  "Rangsit University (2018–2022)",
-  "B.I.T. in Computer Game & Multimedia",
-  "GPAX 3.53/4.00 (First-class honors)",
+const highlightItems = [
+  "Evercred — Led ~80% of portal delivery + Stripe integration",
+  "GMS — Platform features, code reviews, automated tests",
+  "Death Message — JS→TS migration + RevenueCat setup",
 ];
 const miniCards = [
   {
@@ -77,7 +77,7 @@ export default function Hero() {
               features with reliable releases.
             </p>
             <div className="mt-6 grid gap-3">
-              {ritualItems.map((item) => (
+              {highlightItems.map((item) => (
                 <div
                   key={item}
                   className="flex items-center justify-between rounded-2xl bg-(--surface) px-4 py-3 text-sm text-foreground shadow-card"

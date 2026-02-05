@@ -1,3 +1,4 @@
+import EducationSection from "./components/EducationSection";
 import FeatureSection from "./components/FeatureSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <main className="mx-auto flex min-h-screen max-w-6xl flex-col px-6 pb-16 pt-8 sm:px-10 lg:px-12">
         <Header />
         <ProfileHighlight />
+        <EducationSection />
         <Hero />
         <FeatureSection />
         <ReportSection />
